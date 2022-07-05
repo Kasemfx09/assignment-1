@@ -60,33 +60,35 @@ body{
 #donate-today{
      margin-bottom: 1.5rem;
 }
-#donate-today .donate-today-heading{
+.heading{
      text-align: center;
 }
-#donate-today .donate-today-heading h1{
+.heading h1{
      padding-bottom: .3rem;
      font-weight: 900;
 }
-#donate-today .donate-today-heading p{
+.heading p{
      font-size: .8rem;    
      font-weight: 400;
      margin-bottom: 1.5rem;
 
 }
+#donate-today{
+     margin-bottom: 3rem;
+}
 #donate-today .donate-today-amount{
      display: flex;
      flex-direction: row;
      justify-content: center;     
-     gap: .8rem;
+     gap: 1rem;
      margin-bottom: 2rem;
 }
 #donate-today .donate-today-amount .amount{   
      background-color: #f7f4f4;
-     width: 5rem;
-     height: 5rem;
-    line-height: 5rem;   
-     text-align: center;
-     
+     width: 7rem;
+     height: 7rem;
+     line-height: 7rem;   
+     text-align: center;     
      border-radius: .2rem;
      -webkit-border-radius: .2rem;
      -moz-border-radius: .2rem;
@@ -107,9 +109,10 @@ body{
 #donate-today .donate-amount-field form input{
      border: none;
      outline: none;
-     border-bottom: 2px solid #6b6a6a;
+     border-bottom: 2px solid #b4b4b4;
      width: 28rem;
      text-align: center;
+     font-size: 1rem;
      margin-bottom: 1rem;
 }
 #donate-today .donate-amount-field form button{
