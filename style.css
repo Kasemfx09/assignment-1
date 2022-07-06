@@ -1,112 +1,127 @@
-*{
+* {
      margin: 0;
      padding: 0;
-}
-body{     
+ }
+ 
+ body {
      font-family: 'Lato', sans-serif;
-}
-
-#banner{  
+ }
+ 
+ #banner {
      width: 100%;
-     height: 100vh;   
+     height: 100vh;
      background-image: url(images/banner1.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     margin-bottom: 3rem;    
-}
-#banner .banner-container{ 
-     color: #ffffff;    
-     background-color: rgba(39, 27, 27, 0.767); 
+     margin-bottom: 3rem;
+ }
+ 
+ #banner .banner-container {
+     color: #ffffff;
+     background-color: rgba(39, 27, 27, 0.767);
      width: 100%;
-     height: 100%;  
-           
-}
-#banner .banner-container .banner-content{
+     height: 100%;
+ }
+ 
+ #banner .banner-container .banner-content {
      padding-top: 18%;
-     
-   
-}
-#banner .banner-container .banner-content h1{
+ }
+ 
+ #banner .banner-container .banner-content h1 {
      text-align: center;
-     font-size: 2.5rem;
+     font-size: 2.8rem;
      color: #fff;
-     padding-bottom: .5rem;    
-  
-}
-#banner .banner-container .banner-content p{
-     color: #fff;      
-    font-size: 1rem;  
-    text-align: center;
-    padding-bottom: 1rem;    
-}
-#banner .banner-container .banner-content a{
-     font-size: .8rem;
+     padding-bottom: .5rem;
+ }
+ 
+ #banner .banner-container .banner-content p {
+     color: #fff;
+     font-size: 1rem;
+     text-align: center;
+     padding-bottom: 1rem;
+ }
+ 
+ #banner .banner-container .banner-content a {
+     font-size: 1rem;
      text-decoration: none;
      color: #fff;
      display: block;
      background-color: #FF5959;
-     width: 6rem;
-     padding: .5rem .2rem;
+     width: 6.5rem;
+     padding: .7rem .4rem;
      text-align: center;
      margin: 0 auto;
-     border-radius:.2rem ;
-     -webkit-border-radius:.2rem ;
-     -moz-border-radius:.2rem ;
-     -ms-border-radius:.2rem ;
-     -o-border-radius:.2rem ;
-     cursor: pointer;
-}
-#donate-today{
-     margin-bottom: 1.5rem;
-}
-.heading{
-     text-align: center;
-}
-.heading h1{
-     padding-bottom: .3rem;
-     font-weight: 900;
-}
-.heading p{
-     font-size: .8rem;    
-     font-weight: 400;
-     margin-bottom: 1.5rem;
-
-}
-#donate-today{
-     margin-bottom: 3rem;
-}
-#donate-today .donate-today-amount{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;     
-     gap: 1rem;
-     margin-bottom: 2rem;
-}
-#donate-today .donate-today-amount .amount{   
-     background-color: #f7f4f4;
-     width: 7rem;
-     height: 7rem;
-     line-height: 7rem;   
-     text-align: center;     
      border-radius: .2rem;
      -webkit-border-radius: .2rem;
      -moz-border-radius: .2rem;
      -ms-border-radius: .2rem;
      -o-border-radius: .2rem;
-}
-#donate-today .donate-today-amount .amount:hover{
+     cursor: pointer;
+ }
+ 
+ #donate-today {
+     margin-bottom: 1.5rem;
+ }
+ 
+ .heading {
+     text-align: center;
+ }
+ 
+ .heading h1 {
+     font-size: 2.2rem;
+     padding-bottom: 1rem;
+     font-weight: 900;
+     color: #000;
+ }
+ 
+ .heading p {
+     font-size: 1rem;
+     font-weight: 400;
+     margin-bottom: 2rem;
+     color: #717171;
+ }
+ 
+ #donate-today {
+     margin-bottom: 4rem;
+ }
+ 
+ #donate-today .donate-today-amount {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 1rem;
+     margin-bottom: 2rem;
+ }
+ 
+ #donate-today .donate-today-amount .amount {
+     background-color: #f7f4f4;
+     width: 6.5rem;
+     height: 6.1rem;
+     line-height: 6.1rem;
+     text-align: center;
+     font-weight: 900;
+     font-size: 1.5rem;
+     border-radius: .2rem;
+     -webkit-border-radius: .2rem;
+     -moz-border-radius: .2rem;
+     -ms-border-radius: .2rem;
+     -o-border-radius: .2rem;
+ }
+ 
+ #donate-today .donate-today-amount .amount-highlight {
      border: 2px solid red;
      color: #FF5959;
-     background-color: rgba(255, 89, 89, 0.329);
+     background-color: #ff8e8e54;
      font-weight: 900;
      cursor: pointer;
-}
-#donate-today .donate-amount-field{
+ }
+ 
+ #donate-today .donate-amount-field {
      text-align: center;
-     
-}
-#donate-today .donate-amount-field form input{
+ }
+ 
+ #donate-today .donate-amount-field form input {
      border: none;
      outline: none;
      border-bottom: 2px solid #b4b4b4;
@@ -114,22 +129,195 @@ body{
      text-align: center;
      font-size: 1rem;
      margin-bottom: 1rem;
-}
-#donate-today .donate-amount-field form button{
-     font-size: .8rem;
+ }
+ 
+ #donate-today .donate-amount-field form button {
+     font-size: 1rem;
      text-decoration: none;
      color: #fff;
      display: block;
      background-color: #FF5959;
-     width: 6rem;
-     padding: .5rem .3rem;
+     width: 7rem;
+     padding: .7rem .4rem;
      cursor: pointer;
      text-align: center;
      margin: 0 auto;
      border: none;
-     border-radius:.2rem ;
-     -webkit-border-radius:.2rem ;
-     -moz-border-radius:.2rem ;
-     -ms-border-radius:.2rem ;
-     -o-border-radius:.2rem ;
-}
+     border-radius: .2rem;
+     -webkit-border-radius: .2rem;
+     -moz-border-radius: .2rem;
+     -ms-border-radius: .2rem;
+     -o-border-radius: .2rem;
+ }
+ 
+ #donate-plan {
+     width: 900px;
+     height: auto;
+     margin: 0 auto;
+ }
+ 
+ #donate-plan .donate-plan-content {
+     display: flex;
+     flex-direction: row;
+     gap: 1rem;
+     justify-content: center;
+ }
+ 
+ #donate-plan .donate-plan-info {
+     padding: 3.8rem 1rem 2.8rem;
+     border-radius: .3rem;
+ }
+ 
+ #donate-plan .donate-plan-info h3 {
+     margin: .8rem 0;
+ }
+ 
+ #donate-plan .donate-plan-info img {
+     width: 3rem;
+ }
+ 
+ #donate-plan .donate-plan-content .food {
+     background-color: #d4d3d3;
+ }
+ 
+ #donate-plan .donate-plan-content .shelter {
+     background-color: #ffd7d7;
+ }
+ 
+ #donate-plan .donate-plan-content .education {
+     background-color: #f5c991;
+ }
+ 
+ #recent-work {
+     margin: 4rem 10rem;
+ }
+ 
+ #recent-work .recent-work-content {
+     display: flex;
+     flex-direction: row;
+     gap: 1rem;
+     margin-bottom: 1rem;
+ }
+ 
+ #recent-work .recent-work-content .recent-work-info {
+     flex-basis: 1;
+     background-color: #fff;
+     padding: .5rem;
+     box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+ }
+ 
+ #recent-work .recent-work-content .recent-work-info img {
+     width: 100%;
+     height: auto;
+ }
+ 
+ #recent-work .recent-work-content .recent-work-info h2 {
+     color: #000;
+     padding: .3rem 0 .5rem;
+ }
+ 
+ #recent-work .recent-work-content .recent-work-info p {
+     color: #636262;
+ }
+ #recent-work .recent-btn {
+     font-size: .7rem;
+     text-decoration: none;
+     color: #fff;
+     display: block;
+     background-color: #FF5959;
+     width: 5rem;
+     padding: .5rem .2rem;
+     text-align: center;    
+     float: right;     
+     border-radius: .2rem;
+     -webkit-border-radius: .2rem;
+     -moz-border-radius: .2rem;
+     -ms-border-radius: .2rem;
+     -o-border-radius: .2rem;
+     cursor: pointer;
+ }
+ #meet-volunteer {
+     margin: 0 10rem;
+ }
+ 
+ #meet-volunteer .meet-volunteer-content {
+     display: flex;
+     flex-direction: row;
+     gap: .5rem;
+ }
+ 
+ #meet-volunteer .meet-volunteer-info {
+     flex-basis: 1;
+     background-color: #080808;
+     border: .3rem solid #63c5fd;
+     border-radius: 3.2rem .7rem 3.2rem .7rem;
+ }
+ 
+ #meet-volunteer .meet-volunteer-info img {
+     width: 100%;
+     height: auto;
+     border-radius: 3rem .5rem 3rem 0;
+ }
+ 
+ #meet-volunteer .meet-volunteer-info h3 {
+     text-align: center;
+     padding: .3rem 0;
+     color: #fff;
+ }
+ 
+ #my-updates {
+     margin: 4rem 0;
+ }
+ 
+ #my-updates .my-updates-content {
+     margin: 0 auto;
+     padding: 4rem 0;
+     width: 40rem;
+     background-color: #f8dfc0;
+     text-align: center;
+ }
+ 
+ #my-updates .my-updates-content form input {
+     width: 13rem;
+     color: #000;
+     font-size: .8rem;
+     padding: .7rem 1rem .6rem;
+     border: none;
+     outline: none;
+     border-radius: .3rem 0 0 .3rem;
+     background-color: #c5c4c4;
+ }
+ 
+ #my-updates .my-updates-content form button {
+     color: #fff;
+     font-size: .8rem;
+     padding: .7rem 1.8rem .6rem;
+     border: none;
+     outline: none;
+     border-radius: 0 .3rem .3rem 0;
+     background-color: #FF5959;
+     cursor: pointer;
+     margin-left: -.2rem;
+ }
+ 
+ footer {
+     width: 100%;
+     height: auto;
+     background-color: #000;
+     padding: 2rem 0;
+ }
+ 
+ footer h1 {
+     color: #fc4d4d;
+     text-align: center;
+     padding: 1rem 0;
+     font-family: 'Lobster', cursive;
+ }
+ 
+ footer p {
+     color: #fff;
+     text-align: center;
+     font-size: .8rem;
+ }
